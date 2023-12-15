@@ -1,0 +1,24 @@
+/* @charset "UTF-8";
+* {
+  font-family: "ALS Hauss", Helvetica, "Helvetica New", Arial, sans-serif;
+}
+ */
+@font-face {
+    font-family: "Navigo";
+    src: local("Navigo-Medium"),url("https://www.raiffeisen.ru/common/new/images/fonts/Navigo-Bold-Web.woff") format("woff");
+}
+
+@font-face { 
+    font-family: "ALS Hauss";
+    src: local("ALS Hauss"), url("https://www.raiffeisen.ru/common/new/images/fonts/ALS_Hauss-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face { 
+    font-family: "ALS Hauss";
+    src: local("ALS Hauss"), url("https://www.raiffeisen.ru/common/new/images/fonts/ALS_Hauss-Bold.woff") format("woff");
+    font-style: normal;
+    font-weight: bold;
+}

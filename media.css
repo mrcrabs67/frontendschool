@@ -1,0 +1,158 @@
+@media (max-width: 1200px) {
+    .main-content-description-table-row-description {
+        max-width: 372px;
+        padding: 0 12px;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-content-description-table-row-description {
+        max-width: 358px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-content-description-table-row-likes {
+        padding-left: 17px;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-content-description-table-row-teacher {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .main-container{
+        padding: 24px 32px 16px 32px;
+    }
+
+    .main-content {
+        padding: 24px 32px 16px 32px;
+        margin: 0;
+    }
+
+    .main-content-h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .main-content-register-btn {
+        width: 164px;
+        height: 32px;
+
+        padding: 5px 17px;
+
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .main-content-image {
+        display: none;
+    }
+
+    .main-content-image-cloud {
+        display: none;
+    }
+
+    .main-content-description-h2 {
+        
+        margin-top: 16px;
+        margin-bottom: 18px;
+        
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .filter-item-btn {
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .main-content-description-table-row {
+        position: relative;
+
+        margin-bottom: 24px;
+
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .main-content-description-table-row-date{
+        padding: 0;
+        margin-bottom: 4px;
+
+        font-size: 12px;
+        line-height: 18px;
+
+        order: 1;
+    }
+
+    .main-content-description-table-row-description {
+        max-width: 416px;
+
+        order: 3;
+    }
+
+    .main-content-description-table-row-description-summary {
+        max-width: 385px;
+        margin-bottom: 4px;
+    }
+
+    .main-content-description-table-row-description-detailed {
+        margin-bottom: 7px;
+    }
+
+    .main-content-description-table-row-likes{
+        position: absolute;
+
+        padding: 0;
+
+        max-width: 19px;
+
+        right: 0;
+        top: 0;
+    }
+
+    .likes-amount-span {
+        display: none;
+    }
+
+    .main-content-description-table-row-action {
+        justify-content: flex-start;
+
+        padding: 0;
+
+        font-size: 12px;
+        line-height: 18px;
+
+        order: 4;
+    }
+
+    .main-content-description-table-row-action-register {
+        padding: 3px 12px;
+    }
+
+    .main-content-description-table-row-action-disabled {
+        padding: 3px 12px;
+    }
+
+    .dialog-header-description {
+        display: none;
+    }
+    
+    
+    .dialog-btn-ok {
+        padding: 7px;
+
+        width: 100%;
+
+    }
+
+    .dialog-btn-cancel {
+        display: none;
+    }
+}
